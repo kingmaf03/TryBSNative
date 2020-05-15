@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="BSNative">
+    <attr name="bs_template_type" format="reference"/>
+    <attr name="bs_button_background_color" format="color"/>
+    <attr name="bs_button_text_color" format="color"/>
+    <attr name="bs_primary_text_color" format="color"/>
+    <attr name="bs_secondary_text_color" format="color"/>
+    <attr name="bs_rating_color" format="color"/>
+    <attr name="bs_background_color" format="reference|color"/>
+  </declare-styleable>
+</resources>

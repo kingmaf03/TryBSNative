@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.ads.nativetemplates.BSNative
+        android:id="@+id/my_template"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bs_template_type="@layout/medium_size"
+        app:bs_button_background_color="#00B8D4"
+        app:bs_button_text_color="#2E2E2E"
+        app:bs_secondary_text_color="#A8A8A8"
+        app:bs_background_color="#FFFFFF"
+        app:bs_primary_text_color="#2E2E2E"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
